@@ -17,5 +17,5 @@ class Test(unittest.TestCase):
         self.assertEqual(calc.div(10, 2), 5)
 
 
-if name == '__main__':
+if __name__ == '__main__':
     unittest.main()
