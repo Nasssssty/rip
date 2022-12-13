@@ -6,7 +6,7 @@ import calc
 class Test(unittest.TestCase):
 
     def test_sum(self):
-        self.assertEqual(calc.sum(4, 7), 11)
+        self.assertEqual(calc.sum(4, 6), 11)
 
     def test_sub(self):
         self.assertEqual(calc.sub(10, 5), 5)
